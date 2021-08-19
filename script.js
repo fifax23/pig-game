@@ -50,7 +50,7 @@ btnRoll.addEventListener('click', () => {
     const dice = Math.trunc(Math.random() * 6) + 1;
 
     diceEl.classList.remove('hidden');
-    diceEl.setAttribute('src', `/images/dice-${dice}.png`);
+    diceEl.setAttribute('src', `images/dice-${dice}.png`);
 
     if (dice !== 1) {
       currentScore += dice;
